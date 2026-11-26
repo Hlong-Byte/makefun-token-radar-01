@@ -98,6 +98,7 @@ export interface RadarRow {
   growth_multiplier: number;
   maturity_multiplier: number;
   breadth_multiplier: number;
+  farm_steps: string[];
 }
 
 /** A live-token protocol: it trades already, so the board shows the market's value, not a model's. */
