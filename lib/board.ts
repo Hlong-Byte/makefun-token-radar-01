@@ -5,7 +5,7 @@
 // would hide. Live-token protocols are set aside rather than ranked: their market cap is a fact, not a model.
 
 import { EARLY_ROWS, LIVE_ROWS, isPreToken, isRankable, impliedValue, round4 } from './score.ts';
-import { farmSteps, stepText } from './farm.ts';
+import { farmSteps, stepText } from './plan.ts';
 import type { BoardRow, LiveRow, ModelConstants, RadarData, RadarRow, Snapshot, SnapshotProtocol } from './types.ts';
 import { MODEL } from './score.ts';
 

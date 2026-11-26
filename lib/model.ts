@@ -3,7 +3,7 @@
 
 export { MODEL, MODEL_VERSION, EARLY_ROWS, LIVE_ROWS, ageDays, impliedValue, isPreToken, isRankable, round4 } from './score.ts';
 export { parseSnapshot } from './snapshot.ts';
-export { farmSteps, stepText } from './farm.ts';
+export { farmSteps, stepText } from './plan.ts';
 export { buildBoard, buildRadar, liveRows, radarRow } from './board.ts';
 export { boardIssue, dataScript } from './wire.ts';
 export { SnapshotError } from './types.ts';
